@@ -1,0 +1,32 @@
+{
+    "dataset_func_kwargs": {
+        "Wholesale"  : {"func_name": "Wholesale"  , "kwargs": {}},
+        "Cholesterol": {"func_name": "Cholesterol", "kwargs": {}}
+    },
+    "encoder_func_kwargs": {
+        "OneHot"     : {"func_name": "OneHotEncoder"     , "kwargs": {}},
+        "Target"     : {"func_name": "TargetEncoder"     , "kwargs": {}},
+        "LeaveOneOut": {"func_name": "LeaveOneOutEncoder", "kwargs": {}},
+        "WOE"        : {"func_name": "WOEEncoder"        , "kwargs": {}}
+    },
+    "model_func_kwargs": {
+        "LogisticRegressionCV": {
+            "func_name": "LogisticRegressionCV",
+            "kwargs": {}
+        },
+        "RandomForestClassifier": {
+            "func_name": "RandomForestClassifier",
+            "kwargs": {}
+        },
+        "RandomForestRegressor": {
+            "func_name": "RandomForestRegressor",
+            "kwargs": {}
+        }
+    },
+    "other_kwargs": {
+        "seeds": [0, 1, 2, 3, 4],
+        "output_dir": "../output/test",
+        "test_size": 0.2,
+        "use_cache": false
+    }
+}
