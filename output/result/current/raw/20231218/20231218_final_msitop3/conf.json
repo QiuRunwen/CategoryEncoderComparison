@@ -1,0 +1,101 @@
+{
+    "dataset_func_kwargs": {
+        "CPS1988": {"func_name": "CPS1988", "kwargs": {}},
+        "Socmob": {"func_name": "Socmob", "kwargs": {}},
+        "Moneyball": {"func_name": "Moneyball", "kwargs": {}},
+        "Avocado": {"func_name": "Avocado", "kwargs": {}},
+        "CPMP2015": {"func_name": "CPMP2015", "kwargs": {}},
+        "Cholesterol": {"func_name": "Cholesterol", "kwargs": {}},
+        "Wholesale": {"func_name": "Wholesale", "kwargs": {}},
+        "TripAdvisor": {"func_name": "TripAdvisor", "kwargs": {}},
+        "Autism": {"func_name": "Autism", "kwargs": {}},
+        "Mammographic": {"func_name": "Mammographic", "kwargs": {}},
+        "Obesity": {"func_name": "Obesity", "kwargs": {}},
+        "GermanCredit": {"func_name": "GermanCredit", "kwargs": {}},
+        "StudentPerformance": {
+            "func_name": "StudentPerformance",
+            "kwargs": {}
+        },
+        "CarEvaluation": {"func_name": "CarEvaluation", "kwargs": {}},
+        "Churn": {"func_name": "Churn", "kwargs": {}},
+        "Colleges": {"func_name": "Colleges", "kwargs": {}},
+        "HIV": {"func_name": "HIV", "kwargs": {}},
+        "Mushroom": {"func_name": "Mushroom", "kwargs": {}},
+        "EmployeeSalaries": {"func_name": "EmployeeSalaries", "kwargs": {}},
+        "Nursery": {"func_name": "Nursery", "kwargs": {}},
+        "BikeSharing": {"func_name": "BikeSharing", "kwargs": {}},
+        "HousingPrice": {"func_name": "HousingPrice", "kwargs": {}},
+        "Adult": {"func_name": "Adult", "kwargs": {}},
+        "Diamonds": {"func_name": "Diamonds", "kwargs": {}},
+        "Kick": {"func_name": "Kick", "kwargs": {}},
+        "RoadSafety": {"func_name": "RoadSafety", "kwargs": {}},
+        "UkAir": {"func_name": "UkAir", "kwargs": {}},
+        "EmployeeAccess": {"func_name": "EmployeeAccess", "kwargs": {}},
+        "KDDCup09": {"func_name": "KDDCup09", "kwargs": {}}
+    },
+    "encoder_func_kwargs": {
+        "OneHotEncoder": {"func_name": "OneHotEncoder", "kwargs": {}},
+        "OrdinalEncoder": {"func_name": "OrdinalEncoder", "kwargs": {}},
+        "CountEncoder": {"func_name": "CountEncoder", "kwargs": {}},
+        "BaseNEncoder": {"func_name": "BaseNEncoder", "kwargs": {}},
+        "BackwardDifferenceEncoder": {
+            "func_name": "BackwardDifferenceEncoder",
+            "kwargs": {}
+        },
+        "HelmertEncoder": {"func_name": "HelmertEncoder", "kwargs": {}},
+        "SumEncoder": {"func_name": "SumEncoder", "kwargs": {}},
+        "MinHashEncoder": {"func_name": "MinHashEncoder", "kwargs": {}},
+        "SimilarityEncoder": {"func_name": "SimilarityEncoder", "kwargs": {}},
+        "TargetEncoder": {"func_name": "TargetEncoder", "kwargs": {}},
+        "WOEEncoder": {"func_name": "WOEEncoder", "kwargs": {}},
+        "JamesSteinEncoder": {"func_name": "JamesSteinEncoder", "kwargs": {}},
+        "MEstimateEncoder": {"func_name": "MEstimateEncoder", "kwargs": {}},
+        "QuantileEncoder": {"func_name": "QuantileEncoder", "kwargs": {}},
+        "MeanEncoder": {"func_name": "MeanEncoder", "kwargs": {}},
+        "Delete": {"func_name": "Delete", "kwargs": {}}
+    },
+    "model_func_kwargs": {
+        "MLPClassifier": {"func_name": "MLPClassifier", "kwargs": {}},
+        "RandomForestClassifier": {
+            "func_name": "RandomForestClassifier",
+            "kwargs": {}
+        },
+        "DecisionTreeClassifier": {
+            "func_name": "DecisionTreeClassifier",
+            "kwargs": {"max_depth": 10, "min_samples_leaf": 10}
+        },
+        "XGBClassifier": {
+            "func_name": "XGBClassifier",
+            "kwargs": {"tree_method": "hist", "enable_categorical": true}
+        },
+        "LGBMClassifier": {"func_name": "LGBMClassifier", "kwargs": {}},
+        "MLPRegressor": {"func_name": "MLPRegressor", "kwargs": {}},
+        "RandomForestRegressor": {
+            "func_name": "RandomForestRegressor",
+            "kwargs": {}
+        },
+        "LogisticRegression": {
+            "func_name": "LogisticRegression",
+            "kwargs": {}
+        },
+        "RidgeCV": {"func_name": "RidgeCV", "kwargs": {}},
+        "DecisionTreeRegressor": {
+            "func_name": "DecisionTreeRegressor",
+            "kwargs": {"max_depth": 10, "min_samples_leaf": 10}
+        },
+        "XGBRegressor": {
+            "func_name": "XGBRegressor",
+            "kwargs": {"tree_method": "hist", "enable_categorical": true}
+        },
+        "LGBMRegressor": {"func_name": "LGBMRegressor", "kwargs": {}},
+        "LinearSVR": {"func_name": "LinearSVR", "kwargs": {}},
+        "LinearSVC": {"func_name": "LinearSVC", "kwargs": {}}
+    },
+    "other_kwargs": {
+        "seeds": [0, 1, 2, 3, 4],
+        "output_dir": "../output/result/20231218_final_msitop3/",
+        "test_size": 0.2,
+        "use_cache": false,
+        "delete_highest": false
+    }
+}
