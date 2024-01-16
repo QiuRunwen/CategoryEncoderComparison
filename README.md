@@ -29,6 +29,8 @@ src\
 	models.py	# The classifiers and regressors.
 	preprocess.py	# The preprocessing of the datasets including encoding.
 	utils.py	#	Common functions.
+tests\
+	test_*.py # test the core functions in `src\*.py`
 ```
 
 # Environment
