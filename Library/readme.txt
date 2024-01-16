@@ -34,7 +34,8 @@ if info > 0:
 ```
 =>
 ```python
-import warnings 
+if info > 0:
+        import warnings 
         warnings.warn("numpy.linalg.LinAlgError: SVD did not converge."
                     "Tring to use general rectangular approach (``'gesvd'``)")
         return svd(a, full_matrices=full_matrices, compute_uv=compute_uv, overwrite_a=overwrite_a,
